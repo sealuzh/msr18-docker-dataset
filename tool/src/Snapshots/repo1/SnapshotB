@@ -1,0 +1,9 @@
+FROM ubuntu:14.3
+
+RUN apt-get test && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y openjdk-7-jdk
+ENV HADOP_VERSION	2.6.0
+
+CMD ["hdfss"]
+ENV TEST	2.6.0
+

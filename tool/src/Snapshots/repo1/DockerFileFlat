@@ -1,0 +1,4 @@
+FROM ubuntu:14.2
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y openjdk-7-jdk && rm -rf /var/lib/apt/lists/*
+ENV HADOOP_VERSION	2.6.0
+CMD ["hdfs"]
