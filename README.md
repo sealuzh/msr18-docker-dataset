@@ -1,5 +1,5 @@
 ## Structured Information on State and Evolution of Dockerfiles - Online Appendix
-This is the online appendix of our submission. It provides additional information to our dataset, how to build and run our toolchain to collect the data, and a link to our database dump.
+This is the online appendix of our paper accepted at the Data Showcase track at [MSR 2018](https://2018.msrconf.org/home). It provides additional information to our dataset, how to build and run our toolchain to collect the data, and a link to our database dump.
 
 ### Table of Contents
 1. **[Database Dump](#database-dump)**<br>
