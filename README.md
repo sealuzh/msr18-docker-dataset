@@ -17,7 +17,7 @@ A compressed database dump (~700 MB) is available [here](https://drive.google.co
 ### Entity Relationship Diagram
 Here you find a simplified entity relationship diagram of our data model. Due to space reasons and to foster readability we omitted some links to _single instruction_ and _multiple instructions_ tables. As the name implies, a single _Snapshot_ can have a single link to a single-instruction table (e.g., _Entrypoint_, _CMD_). In addition, all links to a multiple-instruction table are of the form _one to many_, (i.e., a _Snapshot_ can have multiple _RUN_ instructions).
 
-![https://raw.githubusercontent.com/juice457/DFA/master/erd.png](https://raw.githubusercontent.com/juice457/DFA/master/erd.png)
+![erd.png](erd.png?raw=true)
 
 #### Tables
 In the following you will find descriptions of tables, for a comprehensive overview we refer to the attached ERD and a SQL schema (file _schema.sql_).
