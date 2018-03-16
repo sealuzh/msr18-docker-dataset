@@ -11,8 +11,8 @@ This is the online appendix of our paper accepted at the Data Showcase track at 
 
 
 ### Database Dump
-A compressed database dump (~700 MB) is available [here](https://drive.google.com/file/d/1YFEDeizmInuwThrFjfixBc_owWV4Dlz5/view?usp=sharing). Use `gunzip -c msr18_dump.sql.gz | psql dbname` to decompress and import into a database named `dbname`. <br>
-**Note**: the database requires ~20 GB of storage.
+A compressed database dump (~1.5 GB) is available [here](https://zenodo.org/record/1200869/files/msr18_docker_dataset.sql.gz). Use `gunzip -c msr18_docker_dataset.sql.gz | psql dbname` to decompress and import into a database named `dbname`. <br>
+**Note**: the database requires ~25 GB of storage.
 
 ### Entity Relationship Diagram
 Here you find a simplified entity relationship diagram of our data model. Due to space reasons and to foster readability we omitted some links to _single instruction_ and _multiple instructions_ tables. As the name implies, a single _Snapshot_ can have a single link to a single-instruction table (e.g., _Entrypoint_, _CMD_). In addition, all links to a multiple-instruction table are of the form _one to many_, (i.e., a _Snapshot_ can have multiple _RUN_ instructions).
